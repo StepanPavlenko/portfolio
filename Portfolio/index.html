@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Kits -->
+    <script
+      src="https://kit.fontawesome.com/170dc821a9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="user">
+            <div class="user__avatar">
+              <img class="user__photo" src="./img/me.png" alt="User__photo" />
+            </div>
+            <div class="user__content">
+              <div class="user__name">
+                Stepan <br />
+                Pavlenko
+              </div>
+
+              <div class="user__prof">Frontend developer</div>
+            </div>
+          </div>
+
+          <div class="nav" id="nav">
+            <a class="nav__link" data-scroll="#works" href="#">Works</a>
+            <a class="nav__link" data-scroll="#about" href="#">About Me</a>
+            <a class="nav__link" data-scroll="#blog" href="#">Blog</a>
+            <a
+              class="nav__link nav__link--button"
+              href="#"
+              data-modal="#modal_hire_me"
+              >Contact Me</a
+            >
+          </div>
+
+          <button class="burger" type="button" id="navToggle">
+            <i class="burger__icon fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intro -->
+
+    <div class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__content">
+            <div class="intro__suptitle">Welcome, i'm</div>
+            <div class="intro__title">Stepan Pavlenko</div>
+            <div class="intro__text">Frontend developer</div>
+
+            <div class="social__container">
+              <div class="intro__social">
+                <a
+                  class="social__link"
+                  target="_blank"
+                  href="https://www.pinterest.com/stepan2pavl/"
+                  ><i class="social__element fa-brands fa-pinterest-p"></i
+                ></a>
+                <a
+                  class="social__link"
+                  target="_blank"
+                  href="https://instagram.com/rama_skrepka?igshid=ZDdkNTZiNTM="
+                  ><i class="social__element fa-brands fa-instagram"></i
+                ></a>
+                <a
+                  class="social__link"
+                  target="_blank"
+                  href="https://t.me/rama_skrepka"
+                  ><i class="social__element fa-brands fa-telegram"></i
+                ></a>
+                <a
+                  class="social__link"
+                  target="_blank"
+                  href="viber://chat?number=+380988636937"
+                  ><i class="social__element fa-brands fa-viber"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="buttons__container">
+              <div class="buttons__inner">
+                <a class="btn" href="#" data-modal="#modal_hire_me">
+                  Contact me</a
+                >
+
+                <button class="btn" type="button" data-modal="#modal_resume">
+                  See my resume
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <img class="intro__photo" src="./img/MeTitle.png" alt="Me" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Works -->
+
+    <div class="works" id="works">
+      <div class="container">
+        <div class="portfolio">
+          <!-- 1 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Flowers.png"
+                  alt="work"
+                />
+              </div>
+
+              <div class="work__content">
+                <div class="work__cat">Brand Logo</div>
+                <div class="project">
+                  <div class="work__title">F.Store</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Kosmo.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">Cartoon image</div>
+                <div class="project">
+                  <div class="work__title">Kosmo-kid</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/LogoNatureFuture.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">Logotype</div>
+                <div class="project">
+                  <div class="work__title">Nature style</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/LogoKosmo.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">Logotype</div>
+                <div class="project">
+                  <div class="work__title">Nature style fantasy</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Katty.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">Stickers</div>
+                <div class="project">
+                  <div class="work__title">Catty</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Micro.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">Vector image</div>
+                <div class="project">
+                  <div class="work__title">Microphone</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Micro2.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">Vector image</div>
+                <div class="project">
+                  <div class="work__title">Microphone</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Book.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">book</div>
+                <div class="project">
+                  <div class="work__title">The shadow Angel</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9 -->
+          <div class="portfolio__item">
+            <div class="work">
+              <div class="image__cont">
+                <img
+                  class="work__image"
+                  src="./img/works/Flomasters.png"
+                  alt="work"
+                />
+              </div>
+              <div class="work__content">
+                <div class="work__cat">art image</div>
+                <div class="project">
+                  <div class="work__title">F.Store</div>
+                  <time class="work__data" datetime="2023-3-1 19.00">2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio -->
+        </div>
+
+        <div class="text__center">
+          <a class="btn btn--sm" href="#" data-modal="#modal_project_1"
+            >Other works</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__photo"></div>
+
+          <div class="about__content">
+            <h3 class="about__title">About Me</h3>
+            <h2 class="about__bigtitle">Who am i</h2>
+            <div class="about__text">
+              <p>
+                Hi, my name is Stepan Pavlenko and i am frontend developer, want
+                to share with you some of my works and other images shablones.
+              </p>
+              <p>
+                You can download it and change by adding your brand in
+                Photoshop. There are a lot of works in my Profile, Pinterest,
+                and of course you can order it by contact me. As you see, i use
+                AI to create an idea for the brand and make it cheaper, but with
+                some details and afterwork i create an aestetic logotype, that
+                represent your company idea and make your brand live. And of
+                course this page is representing of my skills
+              </p>
+              <p>
+                Hope, that you read and catched some of my energy, and i am
+                happy that you are on my profile, because i want to change world
+                a little too.
+              </p>
+              <p>
+                P.s bellow you can see and use the best world quotes that i
+                liked the most.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <!-- https://citaty.info/rating/best -->
+    <h1 class="reviews__topic">Quotes</h1>
+    <div class="reviews">
+      <div class="container">
+        <div class="reviews__item" id="works__slider">
+          <!-- 1 -->
+          <div class="reviews__content">
+            <div class="reviews__text">
+              <p>
+                Everybody is a genius. But if you judge a fish by its ability to
+                climb a tree, it will live its whole life believing that it is
+                stupid.
+              </p>
+            </div>
+
+            <div class="reviews__author">
+              <img
+                class="reviews__photo"
+                src="./img/authors/Albert.png"
+                alt="author"
+              />
+              <div class="reviews__name">Albert Einstein</div>
+              <div class="reviews__company">theoretical physicist</div>
+              <div class="reviews__rating">
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star-half-stroke"></i>
+                <!-- <i class="stars fa-regular fa-star"></i> -->
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="reviews__content">
+            <div class="reviews__text">
+              <p>
+                The money I have earned will be enough for me until the end of
+                my life, if I die today at four o'clock.
+              </p>
+            </div>
+
+            <div class="reviews__author">
+              <img
+                class="reviews__photo"
+                src="./img/authors/ManyYng.png"
+                alt="author"
+              />
+              <div class="reviews__name">Henny Youngman</div>
+              <div class="reviews__company">actor</div>
+              <div class="reviews__rating">
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star-half-stroke"></i>
+                <i class="stars fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="reviews__content">
+            <div class="reviews__text">
+              <p>Nothing betrays a person more than what he laughs at.</p>
+            </div>
+
+            <div class="reviews__author">
+              <img
+                class="reviews__photo"
+                src="./img/authors/Goethe.png"
+                alt="author"
+              />
+              <div class="reviews__name">Johann Wolfgang von Goethe</div>
+              <div class="reviews__company">writer</div>
+              <div class="reviews__rating">
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="reviews__content">
+            <div class="reviews__text">
+              <p>
+                If you want to have what you have never had, you will have to do
+                what you have never done.
+              </p>
+            </div>
+
+            <div class="reviews__author">
+              <img
+                class="reviews__photo"
+                src="./img/authors/CocoChanel.png"
+                alt="author"
+              />
+              <div class="reviews__name">Coco Chanel</div>
+              <div class="reviews__company">fashion designer</div>
+              <div class="reviews__rating">
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="reviews__content">
+            <div class="reviews__text">
+              <p>
+                The biggest mistake you can make in your life is the constant
+                fear of being wrong.
+              </p>
+            </div>
+
+            <div class="reviews__author">
+              <img
+                class="reviews__photo"
+                src="./img/authors/ElGreen.png"
+                alt="author"
+              />
+              <div class="reviews__name">Elbert Green Hubbard</div>
+              <div class="reviews__company">writer</div>
+              <div class="reviews__rating">
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+                <i class="stars fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__arrows">
+          <div class="reviews__f__arr" id="reviews__f__arr">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="reviews__s__arr" id="reviews__s__arr">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <!-- reviews__item -->
+      </div>
+    </div>
+
+    <!-- News -->
+    <section class="news" id="blog">
+      <div class="container">
+        <div class="news__header">
+          <h3 class="news__title">Read me</h3>
+          <div class="news__text">Rarely write something</div>
+        </div>
+
+        <div class="articles">
+          <!-- 1 -->
+          <div class="articles__col" data-cat="Brand Logo">
+            <div class="articles__item">
+              <div class="articles__header">
+                <div class="articles__date">
+                  10 <br />
+                  june
+                </div>
+                <div class="articles__img">
+                  <img src="./img/article.png" alt="articles__photo" />
+                </div>
+              </div>
+              <div class="articles__content">
+                <div class="title__container">
+                  <h4 class="articles__title">
+                    Directions of management development in Ukraine
+                  </h4>
+                </div>
+
+                <div class="articles__cats">management</div>
+
+                <div class="text__container">
+                  <div class="articles__text">
+                    <p>
+                      Studying the development of management in Ukraine is
+                      important for building a stronger economy, developing
+                      talented managers, competing effectively in the global
+                      marketplace, driving innovation, and supporting ongoing
+                      professional development. Management is the process of
+                      planning, organizing, motivating, and controlling an
+                      organization to achieve coordination of human for the
+                      effective completion of tasks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a class="btn btn--sm btn--art" href="#">more</a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="articles__col col__no__pad" data-cat="Image">
+            <div class="articles__item">
+              <div class="articles__header">
+                <div class="articles__date">
+                  10 <br />
+                  june
+                </div>
+                <div class="articles__img">
+                  <img src="./img/article2.png" alt="articles__photo" />
+                </div>
+              </div>
+              <div class="articles__content">
+                <div class="title__container">
+                  <h4 class="articles__title">
+                    The main differences between operations in management
+                  </h4>
+                </div>
+
+                <div class="articles__cats">Operational management</div>
+
+                <div class="text__container">
+                  <div class="articles__text">
+                    <p>
+                      The management of operations in both areas varies
+                      depending on this. The manufacturing sector usually has
+                      more planning and production operations, while the
+                      non-production sphere is more difficult to manage with
+                      operations related to customer service.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a class="btn btn--sm btn--art" href="#">more</a>
+            </div>
+          </div>
+
+          <div class="articles__col">
+            <!-- 3 -->
+            <div class="articles__item">
+              <div class="articles__header">
+                <div class="articles__date">
+                  10 <br />
+                  june
+                </div>
+                <div class="articles__img">
+                  <img src="./img/article3.png" alt="articles__photo" />
+                </div>
+              </div>
+              <div class="articles__content">
+                <div class="title__container">
+                  <h4 class="articles__title">
+                    Formation of the structure of innovative potential
+                  </h4>
+                </div>
+
+                <div class="articles__cats">invest management</div>
+
+                <div class="text__container">
+                  <div class="articles__text">
+                    <p>
+                      The innovative potential of the enterprise includes
+                      various aspects, such as technical, economic, human and
+                      organizational. To form the structure of the innovative
+                      potential of the enterprise, it is necessary to perform
+                      the following steps.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a class="btn btn--sm btn--art" href="#">more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="news__footer">
+          <a class="news__link" href="#">See more posts</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__credits">
+            <div class="footer__copyright">
+              &copy; 2018 UI43 - Free Templates
+            </div>
+
+            <div class="footer__social">
+              <div class="intro__social">
+                <div class="intro__container">
+                  <a
+                    class="social__el--foot"
+                    target="_blank"
+                    href="https://www.pinterest.com/stepan2pavl/"
+                    ><i class="social__ic--foot fa-brands fa-pinterest-p"></i
+                  ></a>
+                  <a
+                    class="social__el--foot"
+                    target="_blank"
+                    href="https://instagram.com/rama_skrepka?igshid=ZDdkNTZiNTM="
+                    ><i class="social__ic--foot fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+                <div class="intro__container">
+                  <a
+                    class="social__el--foot"
+                    target="_blank"
+                    href="https://t.me/rama_skrepka"
+                    ><i class="social__ic--foot fa-brands fa-telegram"></i
+                  ></a>
+                  <a
+                    class="social__el--foot"
+                    target="_blank"
+                    href="viber://chat?number=+380988636937"
+                    ><i class="social__ic--foot fa-brands fa-viber"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__nav">
+            <a class="footer__nav-link" data-scroll="#works" href="#">Works</a>
+            <a class="footer__nav-link" data-scroll="#about" href="#"
+              >About me</a
+            >
+            <a class="footer__nav-link" data-scroll="#blog" href="#">Blog</a>
+            <a
+              class="footer__nav-link footer__nav-link--btn"
+              href="#"
+              data-modal="#modal_hire_me"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal" id="modal_project_1">
+      <div class="modal__dialog">
+        <!-- x -->
+        <button class="modal__close" type="button" data-close>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+
+        <div class="slick__container__works" id="slick__container__works">
+          <!-- 1 -->
+          <div class="works__slick__item">
+            <!--  -->
+            <div class="modal-work">
+              <div class="modal-work__preview">
+                <img
+                  class="modal-work__photo"
+                  src="./img/works/T-shirt.png"
+                  alt="img"
+                />
+              </div>
+              <div class="modal-work__content">
+                <div class="modal-work__header">
+                  <h3 class="modal-work__title">Ukranian bird</h3>
+                  <div class="modal-work__info">
+                    Image <span class="modal-work__info-divider">|</span> 2023
+                  </div>
+                </div>
+                <div class="modal-work__client">
+                  <div class="modal-work__client-title">Client:</div>
+                  <div class="modal-work__client-company">Polina Sloboda</div>
+                </div>
+                <div class="modal-work__text text__height">
+                  <p>
+                    The size of a sparrow. Body weight 16-21 grams, body length
+                    about 14 cm. In an adult male, the cheeks are white; on the
+                    back of the head is a small yellowish spot; the rest of the
+                    plumage of the head, throat, wide stripe in the middle of
+                    the ox, chest, belly and undertail are black, on the head
+                    with a stilt; the back is olive-green; nadhvoste gray; on
+                    the bluish-gray covering feathers of the wing is a white
+                    stripe; hair, chest and belly are bright yellow; flight
+                    feathers are brown, with a yellowish border;
+                  </p>
+                </div>
+              </div>
+              <!-- modal-work__content -->
+            </div>
+          </div>
+          <!-- item 1 -->
+
+          <!-- 2 -->
+          <div class="works__slick__item">
+            <!--  -->
+            <div class="modal-work">
+              <div class="modal-work__preview">
+                <img
+                  class="modal-work__photo"
+                  src="./img/works/Stpack.png"
+                  alt="img"
+                />
+              </div>
+              <div class="modal-work__content">
+                <div class="modal-work__header">
+                  <h3 class="modal-work__title">Sticker pack</h3>
+                  <div class="modal-work__info">
+                    Image <span class="modal-work__info-divider">|</span> 2023
+                  </div>
+                </div>
+                <div class="modal-work__client">
+                  <div class="modal-work__client-title">Client:</div>
+                  <div class="modal-work__client-company">Anonim</div>
+                </div>
+                <div class="modal-work__text text__height">
+                  <p>
+                    Cute sticker packs are a popular feature of messaging apps
+                    like Telegram, providing users with a fun and expressive way
+                    to communicate with their friends and family. With the
+                    advent of AI, creating a cute sticker pack has become easier
+                    than ever. AI-powered sticker creation tools can generate
+                    unique and adorable designs in a matter of seconds,
+                    providing users with a wide range of options to choose from.
+                  </p>
+                </div>
+              </div>
+              <!-- modal-work__content -->
+            </div>
+          </div>
+          <!-- item 2 -->
+
+          <!-- 3 -->
+          <div class="works__slick__item">
+            <!--  -->
+            <div class="modal-work">
+              <div class="modal-work__preview">
+                <img
+                  class="modal-work__photo"
+                  src="./img/works/Cars.png"
+                  alt="img"
+                />
+              </div>
+              <div class="modal-work__content">
+                <div class="modal-work__header">
+                  <h3 class="modal-work__title">Cars dekstop</h3>
+                  <div class="modal-work__info">
+                    Image <span class="modal-work__info-divider">|</span> 2023
+                  </div>
+                </div>
+                <div class="modal-work__client">
+                  <div class="modal-work__client-title">Client:</div>
+                  <div class="modal-work__client-company">Sebastian Blanc</div>
+                </div>
+                <div class="modal-work__text text__height">
+                  <p>
+                    A desktop car theme is a popular customization option for
+                    computer users who want to personalize their desktop
+                    environment with a specific theme. Car themes typically
+                    feature high-quality images of cars, ranging from classic
+                    sports cars to modern supercars and everything in between.
+                  </p>
+                </div>
+              </div>
+              <!-- modal-work__content -->
+            </div>
+          </div>
+          <!-- item 3 -->
+        </div>
+        <!-- slick-container -->
+
+        <!-- slick arrows -->
+        <div class="modal-work__arrows">
+          <div class="mod-w__arrows-left" id="modal-arr-left">
+            <i class="fa-solid fa-angle-left mod-w__arr-left"></i>Previous
+          </div>
+          <div class="mod-w__arrows-right" id="modal-arr-right">
+            Next<i class="fa-solid fa-angle-right mod-w__arr-right"></i>
+          </div>
+        </div>
+      </div>
+      <!-- modal__dialog -->
+    </div>
+    <!-- slick -->
+
+    <!-- modal2 -->
+    <div class="modal" id="modal_resume">
+      <div class="modal__dialog">
+        <!-- x -->
+        <button class="modal__close" type="button" data-close>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+
+        <div class="modal__container">
+          <h3 class="modal-work__title">Resume</h3>
+          <div class="modal__buttons">
+            <a class="btn btn--sm btn--art" href="#">WORD</a>
+            <a class="btn btn--sm btn--art" href="#">PDF</a>
+          </div>
+
+          <div class="modal-work__client-title resume__title">About me</div>
+
+          <div class="modal-work__client-title resume__title">
+            02.06.2001 <i class="fa-solid fa-baby-carriage"></i>
+          </div>
+          <div class="modal-work__text resume__text">
+            <p>
+              I was born this year and my life started from a small village in
+              Mycolaiv`s region - Veselinovo. I had a beautiful childhood with
+              good friends, as all we had. My village wasn`t very big and i
+              hadn`t a computer, but when i got it, i started to learn Photoshop
+              and was in love with computer games. I dreamed as a child that
+              when I grew up, I would create games, but now i dream to become a
+              frontend developer.
+            </p>
+          </div>
+          <div class="modal-work__client-title resume__title">
+            2017 <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="modal-work__text resume__text">
+            <p>
+              Yes, this is starting to sound more like a biography than a
+              resume, but this year I finished school and decided that I wanted
+              to improve my leadership skills because I enjoyed managing and
+              communicating with people. So, I enrolled in the Mykolaiv National
+              Agrarian University to study management, which I will graduate
+              from in the summer of 2023. While studying here, I wrote several
+              articles on different management topics, gained management skills,
+              and completed several internships, which ultimately raised my
+              leadership bar, alongside the fact that I have been studying web
+              development for a year now.
+            </p>
+          </div>
+
+          <div class="modal-work__client-title resume__title">
+            My abilities and skills
+            <i class="fa-solid fa-list-check"></i>
+          </div>
+
+          <div class="modal-work__text resume__text">
+            <p>
+              Throughout my life, I have acquired many skills and abilities, but
+              the most important ones I gained on my own and consider them to be
+              the ones that form the foundation of my personality:
+            </p>
+          </div>
+
+          <div class="center__block">
+            <div class="modal-work__text resume__text list__skills">
+              <div class="li__num">
+                <li>Communication</li>
+              </div>
+              <div class="li__num">
+                <li>Responsibility</li>
+              </div>
+
+              <div class="li__num">
+                <li>Descipline</li>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-work__text resume__text">
+            <p>
+              There are the main things for any man for my opinion.
+              <br />
+              Next are my skills, gratitudes, diplomas and deserts.
+            </p>
+          </div>
+
+          <div class="center__block">
+            <div class="modal-work__text resume__text res__right">
+              <i class="fa-solid fa-car-side"></i>
+              <i class="fa-solid fa-earth-americas"></i>
+              <i class="fa-solid fa-computer"></i>
+            </div>
+
+            <div class="modal-work__text resume__text list__skills no_li">
+              <div class="li__num">
+                <li>Driving license - "A"</li>
+              </div>
+              <div class="li__num">
+                <li>English language - "B1"</li>
+              </div>
+
+              <div class="li__num">
+                <li>
+                  <a
+                    class="resume__computer-skills"
+                    target="_blank"
+                    href="https://osvita.diia.gov.ua/digigram-share/ngxvx5ot7prnawfz2z4fqunx_eyp5xtz"
+                  >
+                    Computer skills</a
+                  >
+                  - PS, Word-pack
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-work__text resume__text">
+            <p>Additional education</p>
+          </div>
+
+          <div class="center__block">
+            <div class="modal-work__text resume__text res__right">
+              <i class="fa-solid fa-coins"></i>
+              <i class="fa-solid fa-landmark-flag"></i>
+              <i class="fa-solid fa-bars-progress"></i>
+            </div>
+
+            <div class="modal-work__text resume__text list__skills no_li">
+              <div class="li__num">
+                <li>
+                  <a
+                    class="resume__computer-skills"
+                    href="https://courses.prometheus.org.ua:18090/downloads/5f14e2c292004ad9b3bdfc01c3c2970a/Certificate.pdf"
+                    target="_blank"
+                    >Basics of finance and investments</a
+                  >
+                </li>
+              </div>
+
+              <div class="li__num">
+                <li>
+                  <a
+                    class="resume__computer-skills"
+                    href="https://courses.prometheus.org.ua:18090/downloads/d5dfffe46dae4a4588dd80227b3810d9/Certificate.pdf"
+                    target="_blank"
+                    >Basics of state policy</a
+                  >
+                </li>
+              </div>
+
+              <div class="li__num">
+                <li>
+                  <a
+                    class="resume__computer-skills"
+                    href="https://courses.prometheus.org.ua:18090/downloads/6af748087f234d13866818b258368650/Certificate.pdf"
+                    target="_blank"
+                    >Management</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-work__client-title resume__title">
+            Programming knowladge
+          </div>
+
+          <div class="center__block">
+            <div class="modal-work__text resume__text res__right">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+
+            <div class="modal-work__text resume__text list__skills no_li">
+              <div class="li__num">
+                <li>HTML</li>
+              </div>
+              <div class="li__num">
+                <li>CSS</li>
+              </div>
+
+              <div class="li__num">
+                <li>Java Script</li>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-work__client-title resume__title">Projects</div>
+          <div class="center__block">
+            <!-- <div class="modal-work__text resume__text res__right">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-square-js"></i>
+            </div> -->
+
+            <div class="modal-work__text resume__text list__skills no_li">
+              <div class="li__num">
+                <li>This resume</li>
+              </div>
+              <!-- <div class="li__num">
+                <li>CSS</li>
+              </div>
+
+              <div class="li__num">
+                <li>Java Script</li>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="modal-work__client-title resume__title">About me</div>
+          <div class="modal-work__text resume__text">
+            <p>
+              Well, this website reflects my aspiration to become a web
+              developer. It contains links to projects that I have participated
+              in, as well as projects that I have done on my own. In general, I
+              love programming because I love creating, taking an idea and
+              turning it into a practical, finished product. If you are still
+              interested, here is some more information about me.
+            </p>
+            <p>
+              I enjoy sports and have made significant progress in this area
+              over the past year. Additionally, I am a basketball fan and have
+              even played on my university's team. I also love design and have
+              been proficient in Photoshop since the 6th grade, creating various
+              fantastic images. These skills still come in handy when working
+              with templates. I enjoy reading books, learning new things,
+              traveling, or just taking a stroll.
+            </p>
+          </div>
+        </div>
+        <!-- modal__dialog -->
+      </div>
+      <!-- modal -->
+    </div>
+
+    <!-- modal 3 -->
+    <div class="modal" id="modal_hire_me">
+      <div class="modal__dialog modal__dialog--sm">
+        <!-- x -->
+        <button class="modal__close" type="button" data-close>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+
+        <div class="modal__contact">
+          <!-- left block -->
+          <div class="contact__left">
+            <div class="left__container">
+              <h3 class="modal-work__title">Resume</h3>
+
+              <div class="modal__subtitle">Call me or sand me a request</div>
+
+              <div class="contact__info">
+                <div class="cont__numero">
+                  <i class="fa-solid fa-phone-slash cont__phone"></i>
+                  +38(***)*****37
+                </div>
+
+                <div class="cont__mail">
+                  <i class="fa-solid fa-envelope"></i> stepan2pavl@gmail.com
+                </div>
+              </div>
+
+              <form class="form" action="/" method="post">
+                <div class="form__group">
+                  <label class="label" for="input__id">Your e-mail </label>
+                  <input
+                    name="input"
+                    class="input"
+                    type="text"
+                    placeholder="Adress e-mail"
+                    id="input__id"
+                  />
+                </div>
+
+                <div class="form__group">
+                  <label class="label" for="input__text">Request</label>
+                  <textarea
+                    class="textarea"
+                    name="input__text"
+                    id="input__text"
+                    placeholder="Type your request"
+                  ></textarea>
+                </div>
+
+                <div class="make__right">
+                  <button class="btn btn--form" type="submit">SEND</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- right block -->
+          <div class="contact__right"></div>
+        </div>
+
+        <!-- modal-work -->
+      </div>
+      <!-- modal__dialog -->
+    </div>
+    <!-- modal  -->
+
+    <!-- JS -->
+    <script src="./app.js"></script>
+  </body>
+</html>

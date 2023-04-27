@@ -1,0 +1,66 @@
+// main: ../style.less
+
+// 1st slik, quotes
+.reviews__arrows {
+  width: 13%;
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 19px;
+}
+
+.reviews__f__arr,
+.reviews__s__arr {
+  cursor: pointer;
+  transition: scale, 0.1s linear;
+}
+
+.reviews__f__arr:hover,
+.reviews__s__arr:hover {
+  scale: 1.2;
+}
+
+.reviews__f__arr:active,
+.reviews__s__arr:active {
+  color: @grey;
+}
+
+// 2nd slick, modal
+
+.modal-work__arrows {
+  width: 300px;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  z-index: 1;
+  right: 95px;
+  bottom: 20px;
+}
+
+.modal-work__arrows {
+  text-transform: uppercase;
+}
+
+.mod-w__arr-right,
+.mod-w__arr-left {
+  padding: 0 4px;
+}
+
+.mod-w__arrows-left,
+.mod-w__arrows-right {
+  cursor: pointer;
+  transition: scale 0.1s linear;
+}
+
+.mod-w__arrows-left:hover,
+.mod-w__arrows-right:hover {
+  scale: 1.05;
+}
+
+.mod-w__arrows-left:active,
+.mod-w__arrows-right:active {
+  color: @grey;
+}

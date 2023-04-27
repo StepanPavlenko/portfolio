@@ -1,0 +1,64 @@
+// compress: true
+
+@import 'vars';
+
+// font-family: 'Montserrat', sans-serif;
+
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: @black;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+// Blocks
+
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/user';
+@import 'blocks/nav';
+@import 'blocks/intro';
+@import 'blocks/btn';
+@import 'blocks/works';
+@import 'blocks/helpers';
+@import 'blocks/about';
+@import 'blocks/reviews';
+@import 'blocks/news';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/contact';
+@import 'blocks/label';
+@import 'blocks/slick';
+@import 'blocks/resume';
+
+// media
+
+@import 'blocks/media';
+@import 'blocks/burger';

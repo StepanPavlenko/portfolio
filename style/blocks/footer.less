@@ -1,0 +1,86 @@
+// main: ../style.less
+
+.footer {
+  padding: 20px 0;
+  background-color: @black;
+
+  color: @grey-light;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__credits {
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright {
+  padding: 3px 15px 3px 0;
+  border-right: solid 1px #413f41;
+}
+
+.footer__nav {
+  font-size: 0.94rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.social__el--foot {
+  text-decoration: none;
+  border-radius: 50%;
+  border: solid 1px @grey-light;
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 15px;
+
+  transition: all 0.3s linear;
+  &:hover {
+    .social__ic--foot {
+      font-size: 20px;
+    }
+  }
+}
+
+.social__ic--foot {
+  text-decoration: none;
+  color: @grey-light;
+  font-size: 19px;
+}
+
+.footer__nav-link {
+  margin-left: 1.5rem;
+  color: @grey-light;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &--btn {
+    border: 1px solid @grey-light;
+    border-radius: 20px;
+    padding: 0.4rem 1.4rem;
+  }
+
+  transition: all 0.3s linear;
+
+  &--btn:hover {
+    text-decoration: none;
+    color: @black;
+    background-color: @grey-light;
+  }
+}
+
+
+.intro__container{
+  display: flex;
+}

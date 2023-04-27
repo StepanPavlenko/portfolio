@@ -1,0 +1,71 @@
+// main: ../style.less
+
+.modal__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 79px 100px 66px;
+}
+
+.modal__buttons {
+  margin-bottom: 35px;
+}
+
+.resume__title {
+  text-transform: uppercase;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.resume__text p {
+  margin: 0;
+}
+
+.resume__text {
+  margin-bottom: 20px;
+}
+
+.center__block {
+  display: flex;
+  justify-content: center;
+}
+
+.list__skills {
+  text-align: left;
+}
+
+.resume__computer-skills {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+
+  &::after {
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: @grey-light;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+      transition: all 0.3s linear;
+    }
+  }
+}
+
+.res__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.no_li {
+  list-style: none;
+}
